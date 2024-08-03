@@ -9,7 +9,7 @@ const upload = multer({ dest: 'uploads/' });
 
 const sftp = new SFTPClient();
 const sftpConfig = {
-  host: 'storage1.danbot.host',
+  host: 'sftp://storage1.danbot.host',
   port: 2022,
   username: 'daddy08.ee40ebff',
   password: 'Ayaanop08'
